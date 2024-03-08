@@ -42,7 +42,7 @@
                                 <td>{{ $loop->iteration }}</td>
                                 <td>{{ $row->name }}</td>
                                 <td>{{ $row->slug }}</td>
-                                <td><img src="{{ $row->image }}" alt=""></td>
+                                <td><img src="{{ $row->image }}" alt="" width="100px"></td>
                                 <td class="d-flex justify-content-evenly">
                                     <!-- Basic Modal -->
                                     <button type="button" class="btn btn-primary" data-bs-toggle="modal"
